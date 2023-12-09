@@ -10,18 +10,14 @@ body {
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
-    padding: 100px 8.6%;
 }
 
-.footer > p {
-    width: 264px;
-}
+.footer>p {}
 
 .main-page-h {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: .02em;
-    width: 516px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,7 +33,7 @@ body {
     text-align: center;
 }
 
- .card-heading {
+.card-heading {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -69,16 +65,11 @@ address {
 
 ul {
     list-style-type: none;
-    padding-left: 0px;
 }
 
 button {
-    border: none;
-    border-radius: 4px;
     letter-spacing: .04em;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    padding: 16px 32px;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
@@ -93,8 +84,6 @@ button {
     font-weight: 700;
     font-size: 18px;
     color: #4D5AE5;
-    height: 24px;
-    flex-shrink: 0;
     margin-right: 76px;
 }
 
@@ -107,11 +96,15 @@ button {
 }
 
 /* Active and hover designs */
-button:hover, button:active, button:focus {
+button:hover,
+button:active,
+button:focus {
     background: #404BBF;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
     color: #404BBF;
 }
 
@@ -119,60 +112,38 @@ a:active {
     text-decoration: underline;
 }
 
-address > a:focus {
+address>a:focus {
     color: #404BBF;
 }
 
 /* Flexbox designs: */
-    /* Header */
+/* Header */
 header {
     color: #2E2F42;
-    width: 100%;
-    align-items: center;
-    display: inline-flex;
-    height: 72px;
-    border-bottom: 1px solid #E7E9FC;
     justify-content: space-around;
 }
 
 
 
-nav > ul, address > ul {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
+nav>ul,
+address>ul {}
 
-.header-flexbox {
-    display: inline-flex;
-    align-items: center;
-    gap: 76px;
-}
+.header-flexbox {}
 
-    /* Content */
+/* Content */
 .flexbox {
-    display: flex;
     justify-content: center;
-    gap: 24px;
 }
 
 .flexbox-entity {
-    width: 264px;
     /* width: calc((100-(3*24px))/4); */
 }
 
 .team-page li {
-    display: inline-flex;
-    flex-direction: column;
     background-color: #FFF;
-    padding-bottom: 8px;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-page .flexbox {
-    flex-wrap: wrap;
-}
+.portfolio-page .flexbox {}
 
 /* Class designs */
 
@@ -180,8 +151,6 @@ nav > ul, address > ul {
     background-color: #2E2F42;
     color: #FFF;
     text-align: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .main-page-btn {
@@ -191,23 +160,13 @@ nav > ul, address > ul {
 .team-page {
     background-color: #F4F4FD;
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
-#values-page, .portfolio-page {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+#values-page,
+.portfolio-page {}
 
 .portfolio-page-entity {
-    border: 1px solid #E7E9FC;
     /*width: calc((100%-(2*24px))/3);*/
 }
 
-.hidden {
-    display: none;
-}
-
-
-
+.hidden {}
