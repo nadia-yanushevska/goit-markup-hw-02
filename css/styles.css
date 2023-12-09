@@ -135,15 +135,9 @@ address>ul {}
     justify-content: center;
 }
 
-.flexbox-entity {
-    /* width: calc((100-(3*24px))/4); */
-}
-
 .team-page li {
     background-color: #FFF;
 }
-
-.portfolio-page .flexbox {}
 
 /* Class designs */
 
@@ -161,12 +155,3 @@ address>ul {}
     background-color: #F4F4FD;
     text-align: center;
 }
-
-#values-page,
-.portfolio-page {}
-
-.portfolio-page-entity {
-    /*width: calc((100%-(2*24px))/3);*/
-}
-
-.hidden {}
